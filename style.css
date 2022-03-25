@@ -1,0 +1,106 @@
+body {
+  background-color: seashell;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 10vh 0 0 0;
+  font-family: bold;
+  font-size: 4pc;
+}
+
+.container {
+  width: 100%;
+  min-height: 50vh;
+  color: #0c0c0c;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 95%;
+  margin: 80px auto;
+  background-color:rgb(207, 168, 168) ;
+  border-style: solid;
+  border-width: 0.2mm;
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+  border-style:solid;
+}
+
+td {
+  border: 1px solid;
+  border-color: #0c0c0c(255, 253, 254);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+
+input[type="text"] {
+  width: 91%;
+  padding: 10px 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background: #4fa54f;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #77be77;
+  color: rgb(255, 253, 253);
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+tbody {
+  font-family: sans-serif;
+}
+
+.input-part {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+button {
+  background: #4fa54f;
+  color: rgb(252, 246, 246);
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}
+

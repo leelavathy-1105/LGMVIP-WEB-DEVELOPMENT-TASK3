@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title>Student Registration System</title>
+</head>
+<body>
+    <h1 style="color: rgb(27, 11, 11);">Student Registration System</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>
+                            <input type="text" placeholder="" name="studentName" id="studentName">
+                        </div>
+                        <div>
+                            <label for="collegeName">College Name</label>
+                            <input placeholder="" type="text" name="collegeName" id="collegeName">
+                        </div>
+                        <div>
+                            <label for="Branch">Branch</label>
+                            <input placeholder="" type="text" name="Branch" id="Branch">
+                        </div>
+                        <div>
+                            <label for="Mob">Mobile number</label>
+                            <input placeholder="" type="text" name="Mob" id="Mob">
+                        </div>
+                        <div>
+                            <label for="Addr">Address</label>
+                            <input placeholder="" type="text" name="Addr" id="Addr">
+                        </div>
+                        <div>
+                        <label for="Course">Enroll Course</label>
+                        <br>
+                        <input placeholder="" type="text" name="Addr" id="Course">
+                        
+                    </div>
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>College Name</th>
+                                <th>Branch</th>
+                                <th>Mobile number</th>
+                                <th>Address</th>
+                                <th>Course</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
